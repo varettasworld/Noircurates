@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noir Curates</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      text-align: center;
+    }
+    p {
+      font-size: 1rem;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .enter-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: 2px solid #fff;
+      color: #fff;
+      background: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .enter-button:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    .mood-board {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin: 20px;
+      width: 90%;
+      max-width: 1200px;
+    }
+    .mood-board img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .mood-board img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 0.8rem;
+      text-align: center;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="landing">
+    <h1>Noir Curates</h1>
+    <p>The Art of Contrast—Unveiling Soon</p>
+    <button class="enter-button">Enter the Board</button>
+  </div>
+  <div class="mood-board">
+    <!-- Replace the image URLs with your own -->
+    <img src="https://via.placeholder.com/300x400/000/fff?text=Image+1" alt="Mood Image 1">
+    <img src="https://via.placeholder.com/300x400/000/fff?text=Image+2" alt="Mood Image 2">
+    <img src="https://via.placeholder.com/300x400/000/fff?text=Image+3" alt="Mood Image 3">
+    <img src="https://via.placeholder.com/300x400/000/fff?text=Image+4" alt="Mood Image 4">
+  </div>
+  <footer>
+    Contact: <a href="mailto:mvareta32@gmail.com" style="color: #fff;">mvareta32@gmail.com</a><br>
+    &copy; 2024 Noir Curates
+  </footer>
+</body>
+</html>
